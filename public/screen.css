@@ -1,8 +1,138 @@
-html {
-  text-size-adjust: 100%;
-}
-
 body {
-  margin: 0;
-  font: 16px / 1 sans-serif;
-}
+    
+   background-image: url("images/space.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #4b4a4a;
+    margin: 0;
+    padding: 0;
+  }
+
+img {
+      border-radius: 5%;
+      }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height:400px;
+    flex-flow: column;
+    
+    }
+    
+
+  .profile {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding-top:5em;
+  }
+  
+    .profile-image {
+        display: block;
+        
+    }
+    
+  .profile-text {
+      background-color: white;
+      border-radius: 5px;
+      margin-left:20px;
+      margin-bottom: 200px;
+      opacity: 0.5;
+      font-size:20px;
+      
+  }
+
+  .triangle {
+      position: relative;
+      top:20px;
+      left: 10px;
+  }
+main {
+      margin:10em;
+      }
+article {
+      display:flex;
+      flex-direction: column;
+    }
+.projects {
+        display:flex;
+        justify-content: space-between;
+        height:20vh;
+        padding-left: 4em;
+        padding-top: 3em;
+        padding-bottom:7em;
+      }
+.hello-react {
+      color: white;
+      margin: 1em;
+    }
+.reactheader {
+      height:10vh;
+      background-image: url("images/react.png");
+      background-position: center;
+      background-size:cover;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+
+.fizzbuzz {
+        color: white;
+        margin: 1em;
+      } 
+.fizz-text p {
+        font-size:1.5em;
+        
+      }
+.fizz-text span {
+      font-size: 1em;
+      }
+.fizz-head {
+      height:10vh;
+      background-image: url("images/code.png");
+      background-position: center;
+      background-size: cover;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+            }
+
+footer {
+    /*border:3px solid red;*/
+    color: white;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    }
+ 
+.socialmedia {
+  
+    width:50%;
+    display:flex;
+    justify-content: space-around;
+    padding-bottom:2em;
+      }
+      
+      
+
+  
+
+
+    
+
+
+
+    
+
+    
+  
+
+          
+      
+      
+      
+    
+    
+  
