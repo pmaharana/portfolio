@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "deploy": "surge ./public --domain portfolio.prana.surge.sh",
-    "start": "browser-sync start --server 'public' --files 'public'"
+      "start": "browser-sync start --server \"public\" --files \"public\""
   },
   "devDependencies": {
     "browser-sync": "^2.18.8",
