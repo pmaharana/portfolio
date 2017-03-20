@@ -37,6 +37,7 @@ header {
     }
     
   .profile-text {
+        font-family: 'Roboto', sans-serif;
       background-color: white;
       border-radius: 5px;
       margin-left:20px;
@@ -60,16 +61,45 @@ article {
     }
 .projects {
         display:flex;
-        justify-content: space-between;
-        height:20vh;
-        padding-left: 4em;
-        padding-top: 3em;
-        padding-bottom:7em;
+        justify-content:space-between;
+        height:30vh;
+        width:100%;
+        
       }
+ul img {
+      border-radius:20px;
+}
+      
+.projects ul {
+      list-style-type: none;
+            display:flex;
+            justify-content: space-between;
+            
+            width:100%;
+}       
+.projects img {
+      display:contain;
+      
+      
+      height:9em;
+      width:17em;
+      padding:0.5em;
+      }
+      
 .hello-react {
-      color: white;
       margin: 1em;
+      
+
     }
+      
+.react-text {
+             font-family: 'Roboto', sans-serif;
+            background-color:white;
+            padding-top:2em;
+            padding-left:0.5em;
+            padding-right:0.5em;
+            padding-bottom:0.5em;
+            }      
 .reactheader {
       height:10vh;
       background-image: url("images/react.png");
@@ -77,19 +107,33 @@ article {
       background-size:cover;
       border-top-left-radius: 10px;
       border-top-right-radius: 10px;
+      
     }
+.read-more {
+      font-family: 'Roboto', sans-serif;
+      background-color: deepskyblue;
+      color:white;
+      text-align: center;
+      width:20%;
+      border-radius: 5em;
+      position:relative;
+      left:50em;
+      top:2.2em;
+      }
 
 .fizzbuzz {
-        color: white;
+        
         margin: 1em;
       } 
-.fizz-text p {
-        font-size:1.5em;
-        
-      }
-.fizz-text span {
-      font-size: 1em;
-      }
+
+.fizz-text {
+            font-family: 'Roboto', sans-serif;
+            background-color:white;
+            padding-top:2em;
+            padding-left:0.5em;
+            padding-right:0.5em;
+            padding-bottom:2em;
+}
 .fizz-head {
       height:10vh;
       background-image: url("images/code.png");
@@ -98,6 +142,18 @@ article {
       border-top-left-radius: 10px;
       border-top-right-radius: 10px;
             }
+                
+.read-fizz {
+      font-family: 'Roboto', sans-serif;
+      background-color: deepskyblue;
+      color:white;
+      text-align: center;
+      width:20%;
+      border-radius: 5em;
+      position:relative;
+      left:50em;
+      top:-2em;
+      }
 
 footer {
     /*border:3px solid red;*/
@@ -105,6 +161,7 @@ footer {
     display: flex;
     align-items:center;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
     }
  
 .socialmedia {
@@ -117,10 +174,8 @@ footer {
       
 
 
-  
 
 
-    
 
 
 
